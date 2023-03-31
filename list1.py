@@ -8,7 +8,7 @@ Created on Fri Mar 31 13:18:00 2023
 #A list of n number is start from 0(1st number) and end at n-1(nth number)
 a=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(a[3]) #The (3+1)th number
-print(a[-2]) #The 2nd number from the last
+print(a[-2]) #The 2nd number from the last number in the list(a)
 print(a[0:3]) #The (0+1)th number to the 3rd number
 print(a[:]) #All the numbers from a
 print(a[:4]) #The 1st number to the 4th number
