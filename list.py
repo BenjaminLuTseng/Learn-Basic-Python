@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 31 13:18:00 2023
 
-@author: gg90180
+@author: BenjaminLuTseng
 """
 ##
 #A list of n number is start from 0(1st number) and end at n-1(nth number)
@@ -22,4 +22,4 @@ print(b[::2]) #[0, 2, 4, 6, 8]
 print(b[::3]) #Multiples of 3 [(0+1)th, (3+1)th, (6+1)th, ...]
 print(b[1::3]) #Multiples of 3 (Start from the 2nd number)
 c= [x for x in range(0, 30, 2)]
-print(c) #0 ~ 29
+print(c) #0 ~ 29 Act like line 21
