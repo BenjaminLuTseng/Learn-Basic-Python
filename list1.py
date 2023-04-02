@@ -20,6 +20,6 @@ b = [x for x in range(10)] #Show the numbers below 10(not include 10)
 print(b[:]) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] All the numbers in b
 print(b[::2]) #[0, 2, 4, 6, 8] 
 print(b[::3]) #Multiples of number 3( including number 0)
-print(b[1::3]) #Multiples of 3 (treat number 1 as number 0)
+print(b[1::3]) #Multiples of 3 start from number 1(treat number 1 as number 0)
 c= [x for x in range(0, 30, 2)]
-print(c) #Multiples of number 3
+print(c) #Multiples of number 3 start from number 0 of list(c) which contains 30 numbers(number 1 to number 29)
