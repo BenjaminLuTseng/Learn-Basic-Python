@@ -19,7 +19,7 @@ print(a[-3:]) #The 3rd number from the last to the last number of the list(numbe
 b = [x for x in range(10)] #Show the numbers between 0 to 9(show 10 numbers start from 0 so 10 will not be included)
 print(b[:]) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #All the numbers in b
 print(b[::2]) #[0, 2, 4, 6, 8] 
-print(b[::3]) #Arithmetic sequence which is start from number 0 of list(b) with a common difference of 3
-print(b[1::3]) #Arithmetic sequence which is start from number 1 of list(b) with a common difference of 3
+print(b[::3]) #Arithmetic sequence which starts from number 0 of list(b) with a common difference of 3
+print(b[1::3]) #Arithmetic sequence which starts from number 1 of list(b) with a common difference of 3
 c= [x for x in range(0, 30, 2)]
-print(c) #Arithmetic sequence which is start from number 0 of a list, which contains 30 numbers from 0 to 29, with a common difference of 3
+print(c) #Arithmetic sequence which starts from number 0 of a list, which contains 30 numbers from 0 to 29, with a common difference of 3
