@@ -7,7 +7,7 @@ Created on Fri Mar 31 13:18:00 2023
 ##
 #A list of n number is from number 0(1st number) to number n-1(nth number)
 a=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(a[3]) #The (3+1)th number
+print(a[3]) #The (3+1)th number A.K.A number 3
 print(a[-2]) #The 2nd number from the last number in the list(a)
 print(a[0:3]) #The (0+1)th number(number 1) to the 3rd number(number 2)
 print(a[:]) #All the numbers from list(a)
