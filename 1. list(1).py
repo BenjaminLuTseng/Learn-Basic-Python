@@ -16,6 +16,10 @@ print(a[-3:]) #The 3rd number from the last to the last number of the list(numbe
 #top10=[:10] last10=[-10:]
 
 ##
+#Add up lists
+[1, 2] + [3, 4] #[1, 2, 3, 4]
+
+##
 #Range 1
 a = [x for x in range(10)] #Show the numbers between 0 to 9(show 10 numbers start from 0 so 10 will not be included)
 print(a[:]) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] #All the numbers in a
