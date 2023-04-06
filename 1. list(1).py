@@ -18,6 +18,7 @@ print(a[-3:]) #The 3rd number from the last to the last number of the list(numbe
 ##
 #Add up lists
 [1, 2] + [3, 4] #[1, 2, 3, 4]
+sum([1, 2, 3]) #1 + 2 + 3 = 6
 
 ##
 #Range 1
