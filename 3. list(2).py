@@ -2,7 +2,7 @@
 """
 Created on Mon Apr  3 16:58:16 2023
 
-@author: gg90180
+@author: BenjaminLuTseng
 """
 ##
 #Letters
@@ -56,3 +56,11 @@ def f(c):
 c = ['MAYHEM', 'ENSLAVED', 'EMPORER']
 for x in c: #Use 'for' if you want to define the new algebra 'x'
     print('f({})={}'.format(x, f(x))) #f(x)= the answer of f(x), say x is MAYHEM>>> f(MAYHEM)= 65
+
+##
+# Put names and quantitative details together
+Band = ['Megadeth', 'Metallica', 'Anthrax']
+Price = [40, 50, 30]
+Quantity = [300, 80, 130]
+Details = [(x, y, z) for x, y, z in zip(Band, Price, Quantity)]
+print(Details) #[('Band', Price, Quantity), ...]
