@@ -16,10 +16,28 @@ else:
     status = "Overweight"
 print(status)
 
-# Define
+# Calculate
 def bmi(w = 65, h = 1.7):
     return w/h**2
 bmi(60, 1.7)
+
+# def
+def bodyfat_status(bodyfat):
+    if bodyfat < 10: 
+        status = "shredded"
+    elif bodyfat < 14: 
+        status = "lean"
+    elif bodyfat < 24: 
+        status = "normal"
+    elif bodyfat < 30: 
+        status = "slightly obese"
+    elif bodyfat < 35: 
+        status = "median obese"
+    else: 
+        status = "severe obese"
+    return status
+result = bodyfat_status(25)  # Call the function with bodyfat value of 25
+print(result)  # Print the result
 
 ## 1 + 2 + ... + 10
 # for (If you know how many times it has to be done)
