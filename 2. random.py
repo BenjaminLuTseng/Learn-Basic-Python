@@ -4,8 +4,8 @@ Created on Fri Mar 31 22:20:19 2023
 
 @author: BenjaminLuTseng
 """
-##
-#Random
+## Random
+# 
 import random
 a = [random.randrange(1, 10) for x in range(5)] #randrange: Numbers are repeatable
 print(len(a)) #list(a) contains 3 numbers
