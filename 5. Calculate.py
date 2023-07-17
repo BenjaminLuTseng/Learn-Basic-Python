@@ -2,7 +2,7 @@
 """
 Created on Sun Apr 16 11:12:12 2023
 
-@author: gg90180
+@author: Benjamin Lu Tseng
 """
 
 ## Calculation
