@@ -66,3 +66,31 @@ sorted(Bands) #From small to large (The capital letter in the alphabat)
 sorted(Bands, reverse=True) #From large to small (The capital letter in the alphabat)
 sorted(Bands, key=lambda x: x[1]) #In the lambda function, x represents each element in the bands and x[1] represents the years active of each band
 sorted(Bands, key=lambda x: x[1], reverse=True) #The 'key' parameter specifies a function that will be used to extract a comparison key from each element in the list for the sorting operation
+
+## Search
+# Sequential Search
+def sequential_search(a, x):
+    for i in range(len(a)):
+        if x == a[i]:
+            return i
+    return -1 #If not finding x, return "-1"
+data = [1, 9, 8, 5]
+print(sequential_search(data, 9))
+
+# Binary Search
+def binary_search(a, x):
+    left, right = 0, len(a)-1
+    while left <= right:
+        mid = (left + right)//2 #quotient
+        print('L={}, R={}, M={}, DATA[M]={}'.format(left, right, mid, a[mid]))
+        if x == a[mid]:
+            return mid
+        elif x < a[mid]: #If "x" is on the left side of "a", then update "right" to "mid-1" to immediately cut the right side
+            right = mid-1
+        else:
+             left = mid+1 
+    return -1
+data = [6, 19, 36, 43, 50, 52, 55, 65, 71, 81]
+data.sort()
+key = 43
+binary_search(data, key)
