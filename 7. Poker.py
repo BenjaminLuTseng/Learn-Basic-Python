@@ -2,7 +2,7 @@
 """
 Created on Sun Aug 27 16:33:43 2023
 
-@author: gg90180
+@author: BenjaminLuTseng
 """
 ## Defind Cards(ex. Ace of Spades, 4 of Heart)
 # Suit(spade heart diamond club)
